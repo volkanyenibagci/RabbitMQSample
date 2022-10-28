@@ -27,7 +27,7 @@ public class HomeController : Controller
             exclusive: false,
             autoDelete: false,
             arguments: null);
-            string message="Hello World!";
+            string message="Hello World Second init!";
             var body=Encoding.UTF8.GetBytes(message);
 
             channel.BasicPublish(
